@@ -1,0 +1,17 @@
+[package]
+name = "ferrum_q"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "ferrum_q"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = "0.21.1"
+rand = "0.8.5"
+
+[[bin]]
+name = "guessing_game"
+path = "src/learn_rust/guessing_game.rs"
