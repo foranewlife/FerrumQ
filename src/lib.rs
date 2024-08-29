@@ -2,6 +2,7 @@ use pyo3::prelude::*;
 mod start {
     pub mod hello;
 }
+pub mod units;
 
 /// Formats the sum of two numbers as string.
 #[pyfunction]
