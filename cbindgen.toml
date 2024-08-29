@@ -1,0 +1,7 @@
+# cbindgen.toml
+
+language = "C"
+include_guard = "FERRUM_Q_H"
+
+[export]
+include = ["CufftHandle", "rust_cufft_create_plan", "rust_cufft_execute", "rust_cufft_destroy_plan"]

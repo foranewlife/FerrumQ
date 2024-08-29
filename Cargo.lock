@@ -21,6 +21,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "baf1de4339761588bc0619e3cbc0120ee582ebb74b53b4efbf79117bd2da40fd"
 
 [[package]]
+name = "ferrum_q"
+version = "0.1.0"
+dependencies = [
+ "libc",
+ "pyo3",
+ "rand",
+]
+
+[[package]]
 name = "getrandom"
 version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -227,14 +236,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c82cf8cff14456045f55ec4241383baeff27af886adb72ffb2162f99911de0fd"
 dependencies = [
  "bitflags",
-]
-
-[[package]]
-name = "ferrum_q"
-version = "0.1.0"
-dependencies = [
- "pyo3",
- "rand",
 ]
 
 [[package]]
